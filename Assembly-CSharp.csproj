@@ -59,6 +59,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Chibi Mummy\Misc\Scripts\buttonControl_script.cs" />
+    <Compile Include="Assets\Chibi Mummy\Misc\Scripts\CharMovement.cs" />
     <Compile Include="Assets\SD_Character\Scripts\SampleAnimation.cs" />
     <Compile Include="Assets\SD_Character\Scripts\SpringBone.cs" />
     <Compile Include="Assets\SD_Character\Scripts\SpringCollider.cs" />
@@ -66,6 +68,7 @@
     <None Include="Assets\SD_Character\ReadMe.files\colorschememapping.xml" />
     <None Include="Assets\SD_Character\ReadMe.files\props007.xml" />
     <None Include="Assets\SD_Character\ReadMe.files\item0006.xml" />
+    <None Include="Assets\Chibi Mummy\readme.txt" />
     <None Include="Assets\SD_Character\ReadMe.files\filelist.xml" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>Z:/UnityProjects/All Wound Up/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
