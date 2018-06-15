@@ -59,13 +59,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Chibi Mummy\Misc\Scripts\buttonControl_script.cs" />
-    <Compile Include="Assets\Chibi Mummy\Misc\Scripts\CharMovement.cs" />
+    <Compile Include="Assets\Mummy\C#\Axe.cs" />
+    <Compile Include="Assets\Mummy\C#\BaseAnimController.cs" />
+    <Compile Include="Assets\Mummy\C#\CameraController.cs" />
+    <Compile Include="Assets\Mummy\C#\MainController.cs" />
+    <Compile Include="Assets\Mummy\C#\Spear.cs" />
+    <Compile Include="Assets\Mummy\C#\Spear_Shield.cs" />
+    <Compile Include="Assets\Mummy\C#\Sword_Shield.cs" />
+    <Compile Include="Assets\Mummy\C#\Weaponless.cs" />
+    <Compile Include="Assets\Scripts\EnemyNav.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\SD_Character\Scripts\SampleAnimation.cs" />
-    <Compile Include="Assets\SD_Character\Scripts\SpringBone.cs" />
-    <Compile Include="Assets\SD_Character\Scripts\SpringCollider.cs" />
-    <Compile Include="Assets\SD_Character\Scripts\SpringManager.cs" />
     <Compile Include="Assets\VCUL\Scripts\2D\FlyCamera2D.cs" />
     <Compile Include="Assets\VCUL\Scripts\2D\MultiTargetCamera.cs" />
     <Compile Include="Assets\VCUL\Scripts\2D\SmoothFollow2DCamera.cs" />
@@ -76,13 +79,10 @@
     <Compile Include="Assets\VCUL\Scripts\3D\RPGCamera.cs" />
     <Compile Include="Assets\VCUL\Scripts\3D\RTSCamera.cs" />
     <Compile Include="Assets\VCUL\Scripts\3D\SmoothFollowCamera.cs" />
-    <None Include="Assets\SD_Character\ReadMe.files\colorschememapping.xml" />
-    <None Include="Assets\SD_Character\ReadMe.files\props007.xml" />
-    <None Include="Assets\SD_Character\ReadMe.files\item0006.xml" />
-    <None Include="Assets\Chibi Mummy\readme.txt" />
+    <None Include="Assets\Mummy\Materials\myStandart.shader" />
+    <None Include="Assets\PBR Ground Materials #1 [Dirt&amp; Grass]\Documentation.txt" />
     <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Shaders\Skybox Cubemap Extended.shader" />
     <None Include="Assets\VCUL\Manual.txt" />
-    <None Include="Assets\SD_Character\ReadMe.files\filelist.xml" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>Z:/UnityProjects/All Wound Up/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
