@@ -60,10 +60,15 @@ public class EnemyNav : MonoBehaviour
     }
     void Patrol()
     {
+        //play walking animation
         agent.speed = patrolSpeed;
         if (Vector3.Distance(this.transform.position, waypoints[currentWaypointIndex].transform.position) >= 2)
         {
             agent.SetDestination(waypoints[currentWaypointIndex].transform.position);
+        }
+        else if (Vector3.Distance(this.transform.position, waypoints[currentWaypointIndex].transform.position) <= 2)
+        {
+            currentWaypointIndex = Random.Range(0, waypoints.Length);
         }
     }
 
